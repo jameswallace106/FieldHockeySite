@@ -1,0 +1,10 @@
+
+# Modules and output files
+node_modules/
+dist/
+
+# IDE files
+.vscode/
+
+# Environment files so some dumbass doesn't accidentally commit their local environment (looking at you James)
+.env
