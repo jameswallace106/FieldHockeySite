@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    gap: 2em;
+}
+
+
+.fockey-logo-and-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 0;
+    gap: 0.5em;
+}
+
+.text-logo {
+    font-family: var(--default-font-family);
+    /* color: var(--light-text-color)*/
+    font-size: 1.5em;
+}
+
+\

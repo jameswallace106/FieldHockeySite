@@ -4,22 +4,20 @@ import logo from '../../../old_files/VT Field Hockey Logo.png' // Whenever we se
 function AppHeader() {
     return (
         <header className="container">
-            <div className="nav-hamburger-dropdown">
-                Menu
-            </div>
             <div className="fockey-logo-and-title">
                 <Link to="/">
                     <img
                         src={logo}
-                        alt="Virginia Tech Field Hockey Logo"
-                        width="100px"
-                        height="auto"
+                        alt="Virginia Tech Club Sports Logo"
+                        className="fh-logo"
                     />
                 </Link>
-                <h1 className="text-logo">VT Field Hockey</h1>
+                <h1 className="text-logo">Virginia Tech Field Hockey</h1>
             </div>
             <div className="account-info-button">
-                Account
+                <button>
+                    Admin Login
+                </button>
             </div>
         </header>
     )

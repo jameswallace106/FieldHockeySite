@@ -1,0 +1,73 @@
+:root {
+    --title-font-family: "Lato", sans-serif;
+    --default-font-family: "Lato", sans-serif;
+
+    /* Define colors here*/
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    line-height: 1;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.flow-content > * + * {
+    margin-top: 1rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 100vw;
+    /* Add colors here*/
+}
+
+.button, .button:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    /* Add stuff here */
+}
+
+a, a:visited {
+    /* properties here */
+}
+
+a:hover, a:active {
+    /* properties here */
+}
