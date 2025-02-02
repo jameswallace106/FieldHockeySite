@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/fieldhoc/
+    - export DEPLOYPATH=/home/fieldhoc/public/
     - /bin/cp -R GalleryPics $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
@@ -16,5 +16,5 @@ deployment:
     - /bin/cp 2019-2020.html $DEPLOYPATH
     - /bin/cp 2020-2021.html $DEPLOYPATH
     - /bin/cp 2021-2022.html $DEPLOYPATH
-    - /bin/cp 2023-2023.html $DEPLOYPATH
+    - /bin/cp 2022-2023.html $DEPLOYPATH
     - /bin/cp 2023-2024.html $DEPLOYPATH
